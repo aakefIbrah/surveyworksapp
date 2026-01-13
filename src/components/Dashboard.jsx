@@ -303,7 +303,7 @@ const Dashboard = ({ filter }) => {
                             color: 'var(--text-main)',
                             textAlign: language === 'ar' ? 'right' : 'left'
                         }}
-                        className1="input pl-10 w-full md:w-96"
+
                         placeholder={t('searchPlaceholder')}
                         value={searchTerm}
                         onChange={e => setSearchTerm(e.target.value)}
